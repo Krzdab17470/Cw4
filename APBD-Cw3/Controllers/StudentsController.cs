@@ -23,6 +23,8 @@ namespace APBD_Cw3.Controllers
     public class StudentsController : ControllerBase
     {
 
+        /*
+         * ZAD 4.2
 
         string message = "";
         [HttpGet]
@@ -47,6 +49,31 @@ namespace APBD_Cw3.Controllers
                     st.BirthDate = dr["BirthDate"].ToString();
                     st.IdEnrollment = dr["IdEnrollment"].ToString();
                     message = string.Concat(message, '\n', st.IndexNumber, ", ", st.FirstName, ", ", st.LastName, ", ", st.BirthDate, ", ", st.IdEnrollment);
+                }
+            }
+            return Ok(message);
+        }
+
+        */
+
+        string message = "";
+        [HttpGet("{id}")]
+        //https://localhost:44362/api/students/1059
+
+        public IActionResult GetStudents(string id)
+        {
+
+            using (var con = new SqlConnection("Data Source=db-mssql;Initial Catalog=s17470;Integrated Security=True"))
+            using (var com = new SqlCommand())
+            {
+                com.Connection = con;
+                com.CommandText = "Select Enrollment.IdEnrollment, Semester, IndexNumber, Studies.Name From Enrollment, Student, Studies WHERE Enrollment.IdEnrollment = Student.IdEnrollment AND Enrollment.IdStudy = Studies.IdStudy AND IndexNumber = "+ id;
+
+                con.Open();
+                var dr = com.ExecuteReader();
+                while (dr.Read())
+                {
+                    message = string.Concat(message, '\n', dr["IdEnrollment"].ToString(), ", " , dr["Semester"].ToString(), ", ", dr["IndexNumber"].ToString(), ", " , dr["Name"].ToString());
                 }
             }
             return Ok(message);

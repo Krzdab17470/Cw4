@@ -30,3 +30,6 @@ Insert INTO Student (IndexNumber, FirstName, LastName, BirthDate, IdEnrollment) 
 Insert INTO Student (IndexNumber, FirstName, LastName, BirthDate, IdEnrollment) Values (1059, 'Belef', 'Krohotko' , '1990-05-01', 9)
 Insert INTO Student (IndexNumber, FirstName, LastName, BirthDate, IdEnrollment) Values (1020, 'Jan', 'Dumbledore' , '1990-05-01', 10)
 Select * FROM Student
+
+Select Enrollment.IdEnrollment, Semester, IndexNumber, Studies.Name From Enrollment, Student, Studies WHERE Enrollment.IdEnrollment = Student.IdEnrollment AND Enrollment.IdStudy = Studies.IdStudy AND IndexNumber = 1059
+
