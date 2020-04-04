@@ -19,11 +19,11 @@ namespace APBD_Cw3.Controllers
     [Route("api/students")]
     //https://localhost:44362/api/students/
 
-        
+
     public class StudentsController : ControllerBase
     {
-       
-       
+
+
         string message = "";
         [HttpGet]
 
@@ -31,7 +31,7 @@ namespace APBD_Cw3.Controllers
         {
 
             using (var con = new SqlConnection("Data Source=db-mssql;Initial Catalog=s17470;Integrated Security=True"))
-            using(var com = new SqlCommand())
+            using (var com = new SqlCommand())
             {
                 com.Connection = con;
                 com.CommandText = "SELECT * FROM Student";
@@ -46,12 +46,13 @@ namespace APBD_Cw3.Controllers
                     st.LastName = dr["LastName"].ToString();
                     st.BirthDate = dr["BirthDate"].ToString();
                     st.IdEnrollment = dr["IdEnrollment"].ToString();
-                    message = string.Concat(message, '\n' , st.IndexNumber, ", ", st.FirstName, ", ", st.LastName, ", ", st.BirthDate, ", ", st.IdEnrollment);
+                    message = string.Concat(message, '\n', st.IndexNumber, ", ", st.FirstName, ", ", st.LastName, ", ", st.BirthDate, ", ", st.IdEnrollment);
                 }
             }
             return Ok(message);
         }
-        
+
+    }
 
          
 
