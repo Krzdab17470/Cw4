@@ -184,3 +184,11 @@ C:\Users\Wygrany\Desktop\Cw4\Cw4\APBD-Cw3\obj\Debug\netcoreapp3.1\APBD-Cw3.cspro
 C:\Users\Wygrany\Desktop\Cw4\Cw4\APBD-Cw3\obj\Debug\netcoreapp3.1\staticwebassets\APBD-Cw3.StaticWebAssets.Manifest.cache
 C:\Users\Wygrany\Desktop\Cw4\Cw4\APBD-Cw3\obj\Debug\netcoreapp3.1\staticwebassets\APBD-Cw3.StaticWebAssets.xml
 C:\Users\Wygrany\Desktop\Cw4\Cw4\APBD-Cw3\obj\Debug\netcoreapp3.1\APBD-Cw3.genruntimeconfig.cache
+C:\Users\Wygrany\Desktop\Cw4\Cw4\APBD-Cw3\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Wygrany\Desktop\Cw4\Cw4\APBD-Cw3\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Wygrany\Desktop\Cw4\Cw4\APBD-Cw3\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Wygrany\Desktop\Cw4\Cw4\APBD-Cw3\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Wygrany\Desktop\Cw4\Cw4\APBD-Cw3\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Wygrany\Desktop\Cw4\Cw4\APBD-Cw3\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Wygrany\Desktop\Cw4\Cw4\APBD-Cw3\obj\Debug\netcoreapp3.1\APBD-Cw3.csproj.CoreCompileInputs.cache
+C:\Users\Wygrany\Desktop\Cw4\Cw4\APBD-Cw3\obj\Debug\netcoreapp3.1\APBD-Cw3.MvcApplicationPartsAssemblyInfo.cache

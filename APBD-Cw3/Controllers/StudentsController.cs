@@ -19,26 +19,41 @@ namespace APBD_Cw3.Controllers
     [Route("api/students")]
     //https://localhost:44362/api/students/
 
+        
     public class StudentsController : ControllerBase
     {
-        private readonly IDbService _dbService;
-        public StudentsController(IDbService dbService)
-        {
-            _dbService = dbService;
-        }
-
+       
+       
+        string message = "";
         [HttpGet]
 
         public IActionResult GetStudents(string orderBy)
         {
-            using (var client = new SqlConnection("Data Source=db-mssql;Initial Catalog=s17470;Integrated Security=True"))
+
+            using (var con = new SqlConnection("Data Source=db-mssql;Initial Catalog=s17470;Integrated Security=True"))
+            using(var com = new SqlCommand())
             {
+                com.Connection = con;
+                com.CommandText = "SELECT * FROM Student";
 
+                con.Open();
+                var dr = com.ExecuteReader();
+                while (dr.Read())
+                {
+                    var st = new Student();
+                    st.IndexNumber = dr["IndexNumber"].ToString();
+                    st.FirstName = dr["FirstName"].ToString();
+                    st.LastName = dr["LastName"].ToString();
+                    st.BirthDate = dr["BirthDate"].ToString();
+                    st.IdEnrollment = dr["IdEnrollment"].ToString();
+                    message = string.Concat(message, '\n' , st.IndexNumber, ", ", st.FirstName, ", ", st.LastName, ", ", st.BirthDate, ", ", st.IdEnrollment);
+                }
             }
-            return Ok(_dbService.GetStudents());
+            return Ok(message);
         }
+        
 
-    }
+         
 
 
 
