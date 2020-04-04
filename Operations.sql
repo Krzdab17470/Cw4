@@ -1,6 +1,15 @@
 ﻿use s17470
 
 
+CREATE TABLE Student (
+    IndexNumber nvarchar(100)  NOT NULL,
+    FirstName nvarchar(100)  NOT NULL,
+    LastName nvarchar(100)  NOT NULL,
+    BirthDate date  NOT NULL,
+    IdEnrollment int  NOT NULL,
+    CONSTRAINT Student_pk PRIMARY KEY  (IndexNumber)
+);
+
 Insert INTO Studies (IdStudy, Name) Values (10, 'Logistics')
 Insert INTO Studies (IdStudy, Name) Values (11, 'Information Tech.')
 Insert INTO Studies (IdStudy, Name) Values (12, 'History')
