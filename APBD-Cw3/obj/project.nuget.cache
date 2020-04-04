@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fS5l59dU4WXgrPUq53GlEzcZDY467XBjDE8cZKA32EDB/eqKYii+9VBCXvEv5FjxmS3aZ/BYLkTY0QT6fThmzQ==",
+  "dgSpecHash": "1MaHOb3/D8aiRPhFTJ4s7Zbp85te49TKFCXPjEOP3vE4NEEXfrcSHyEJcsUKsFB4EYIkMpzFbxwm1ZNpqALqOQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Wygrany\\Desktop\\APBD-Cw3\\Cw3\\APBD-Cw3\\APBD-Cw3.csproj",
+  "projectFilePath": "C:\\Users\\Wygrany\\Desktop\\Cw4\\Cw4\\APBD-Cw3\\APBD-Cw3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wygrany\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Wygrany\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

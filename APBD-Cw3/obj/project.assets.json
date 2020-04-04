@@ -6071,11 +6071,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Wygrany\\Desktop\\APBD-Cw3\\Cw3\\APBD-Cw3\\APBD-Cw3.csproj",
+      "projectUniqueName": "C:\\Users\\Wygrany\\Desktop\\Cw4\\Cw4\\APBD-Cw3\\APBD-Cw3.csproj",
       "projectName": "APBD-Cw3",
-      "projectPath": "C:\\Users\\Wygrany\\Desktop\\APBD-Cw3\\Cw3\\APBD-Cw3\\APBD-Cw3.csproj",
+      "projectPath": "C:\\Users\\Wygrany\\Desktop\\Cw4\\Cw4\\APBD-Cw3\\APBD-Cw3.csproj",
       "packagesPath": "C:\\Users\\Wygrany\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Wygrany\\Desktop\\APBD-Cw3\\Cw3\\APBD-Cw3\\obj\\",
+      "outputPath": "C:\\Users\\Wygrany\\Desktop\\Cw4\\Cw4\\APBD-Cw3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Wygrany\\AppData\\Roaming\\NuGet\\NuGet.Config",

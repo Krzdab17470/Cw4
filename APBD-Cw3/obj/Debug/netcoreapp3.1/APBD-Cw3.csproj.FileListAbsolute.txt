@@ -92,3 +92,10 @@ C:\Users\Wygrany\Desktop\APBD-Cw3\Cw3\APBD-Cw3\obj\Debug\netcoreapp3.1\APBD-Cw3.
 C:\Users\Wygrany\Desktop\APBD-Cw3\Cw3\APBD-Cw3\obj\Debug\netcoreapp3.1\APBD-Cw3.dll
 C:\Users\Wygrany\Desktop\APBD-Cw3\Cw3\APBD-Cw3\obj\Debug\netcoreapp3.1\APBD-Cw3.pdb
 C:\Users\Wygrany\Desktop\APBD-Cw3\Cw3\APBD-Cw3\obj\Debug\netcoreapp3.1\APBD-Cw3.genruntimeconfig.cache
+C:\Users\Wygrany\Desktop\Cw4\Cw4\APBD-Cw3\obj\Debug\netcoreapp3.1\APBD-Cw3.csprojAssemblyReference.cache
+C:\Users\Wygrany\Desktop\Cw4\Cw4\APBD-Cw3\obj\Debug\netcoreapp3.1\APBD-Cw3.csproj.CoreCompileInputs.cache
+C:\Users\Wygrany\Desktop\Cw4\Cw4\APBD-Cw3\obj\Debug\netcoreapp3.1\APBD-Cw3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Wygrany\Desktop\Cw4\Cw4\APBD-Cw3\obj\Debug\netcoreapp3.1\APBD-Cw3.AssemblyInfoInputs.cache
+C:\Users\Wygrany\Desktop\Cw4\Cw4\APBD-Cw3\obj\Debug\netcoreapp3.1\APBD-Cw3.AssemblyInfo.cs
+C:\Users\Wygrany\Desktop\Cw4\Cw4\APBD-Cw3\obj\Debug\netcoreapp3.1\APBD-Cw3.dll
+C:\Users\Wygrany\Desktop\Cw4\Cw4\APBD-Cw3\obj\Debug\netcoreapp3.1\APBD-Cw3.pdb
